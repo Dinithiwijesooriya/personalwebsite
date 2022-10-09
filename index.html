@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Web page </title>
+    <!--css file-->
+    <link rel="stylesheet" href="webpage.css">
+
+
+</head>
+
+<body>
+
+    <!--=========================================Navigation bar===========================================-->
+
+    <header class="header">
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="abt.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="cont.html">Contact</a></li>
+
+        </ul>
+    </header>
+
+
+
+    <!--=========================================Home section==============================================-->
+    <section class="home" id="home">
+        <!--Home Image-->
+        <div class="home-img">
+            <img src="frontimage.png" alt="">
+
+        </div>
+        <!--Home Content-->
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Dinithi Wijesooriya</h1>
+            <h2>An Undergraduate</h2>
+            <p>from <a href="https://uom.lk">University of Moratuwa</a> Faculty of IT Sri Lanka</p>
+            <!--Contact Button-->
+            <a href="cont.html" class="btn">Contact me</a>
+
+        </div>
+    </section>
+
+    <!--=======================================About Section=============================================-->
+    <section class="about" id="about">
+        <!--heading-->
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+
+        <!--About Content-->
+        <div class="about-contanier">
+            <!--image-->
+            <div class="about-img">
+                <img src="aboutimg.jpeg" class="cc">
+            </div>
+            <!--text-->
+            <div class="about-text">
+                <p>I am Dinithi Wijesooriya from Sri Lanka. Currently I am reading for my degree
+                    BSc (Hons) Infromation Tchnology and Management. I am a first year undergarduate from University of
+                    Moratuwa.
+                    I am intersted in web designing, programming. I am a person who is open minded,
+                    likes to work hard and effectively, always knowladge seeking.
+                </p>
+            </div>
+            <!--btn-->
+            <a href="" class="btn">Download the CV</a><br><br>
+
+            <!--some more information-->
+            <table class="more">
+                <tr>
+                    <th colspan="2">More personal Infromation</th>
+                </tr>
+                <tr>
+                    <th>Title</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <th> Name</th>
+                    <td>Dinithi Wijesoosriya</td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td>21 years</td>
+                </tr>
+                <tr>
+                    <th>Home Town</th>
+                    <td>Kandy Sri lanka</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">School Education</th>
+                    <td>Viharamahadevi Girls' college Kandy</td>
+                </tr>
+                <tr>
+                    <td>Mahamaya Girls's college Kandy</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Higher Education</th>
+                    <td>University of Moratuwa Sri Lanka</td>
+                </tr>
+                <tr>
+                    <td>Cardiff Metropolitan University UK </td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Higher Education studies</th>
+                    <td>BSc (Hons) Infromation Technology and Management - reading</td>
+                </tr>
+                <tr>
+                    <td>BSc (Hons) Business Management - reading</td>
+                </tr>
+
+
+            </table>
+
+
+        </div>
+
+    </section>
+
+    <!--===========================================Skills section======================================-->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+
+        <!--skills content-->
+        <div class="skills-container">
+            <h3 class="skill">HTML</h3>
+            <div class="container">
+                <div class="skills html">90%</div>
+            </div><br>
+
+            <h3 class="skill">CSS</h3>
+            <div class="container">
+                <div class="skills css">80%</div>
+            </div><br>
+
+            <h3 class="skill">JavaScript</h3>
+            <div class="container">
+                <div class="skills js">65%</div>
+            </div><br>
+
+            <h3 class="skill">C Programming</h3>
+            <div class="container">
+                <div class="skills php">60%</div>
+            </div><br>
+
+        </div>
+
+    </section><br><br><br><br><br><br><br><br><br><br>
+
+   
+<!--=======================================contact page new===================================-->
+<section class="contactus">
+    <div class="heading">
+        <h2>Contact</h2>
+        <span>Contact with Us</span>
+    </div>
+
+    <div id="form">
+    
+    <div class="fish" id="fish"></div>
+    <div class="fish" id="fish2"></div>
+    
+    <form id="waterform" method="post">
+    
+    <div class="formgroup" id="name-form">
+        <label for="name">Your name*</label>
+        <input type="text" id="name" name="name" />
+    </div>
+    
+    <div class="formgroup" id="email-form">
+        <label for="email">Your e-mail*</label>
+        <input type="email" id="email" name="email" />
+    </div>
+    
+    <div class="formgroup" id="message-form">
+        <label for="message">Your message</label>
+        <textarea id="message" name="message"></textarea>
+    </div>
+    
+        <input type="submit" value="Send your message!" />
+    </form>
+    </div>
+</section>
+ 
+
+<!--====================================    Footer Section ============================-->
+<div class="footer">
+    <h2>Personal Website</h2>
+    <div class="footer-social">
+        <a href=""><i class="bx bxl-facebook"></i></a>
+        <a href=""><i class="bx bxl-twitter"></i></a>
+        <a href=""><i class="bx bxl-instagram"></i></a>
+        <a href=""><i class="bx bxl-youtube"></i></a>
+    </div>
+
+</div>
+<!--copyright-->
+<div class="copyright">
+    <p href="">Created By<a href="">Dinithi Wijesooriya</a> All Rights are resived</p>
+</div>
+
+<!--js-file-->
+<script src="webpage.js"></script>
+    
+</body>
+
+</html>
